@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Header from './components/Header'
+import Home from  './components/pages/Home'
+import Section from './components/pages/Section'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     <Header />
+     <Home/>
+     <Section title="Michel Foucault" maxResults="10"/>
+     <Section title="Baruch Espinosa" maxResults="10"/>
+     <Section title="Platão" maxResults="10"/>
+     <Section title="Schopenhauer" maxResults="10"/>
+     <Section title="Clóvis de Barros" maxResults="10"/>
+     <Section title="Mário Sérgio Cortella" maxResults="10"/>
+     <Section title="Leandro Karnal" maxResults="10"/>
     </div>
   );
 }

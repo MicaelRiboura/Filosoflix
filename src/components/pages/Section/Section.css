@@ -1,0 +1,48 @@
+.section{
+    padding: 20px;
+    background-color:#141414;
+    height: 100%;
+    color:#fff;
+    overflow: hidden;
+}
+
+.carrousel{
+    width:100vw;
+    padding: 20px 10px;
+    display: flex;
+    /* justify-content:center; */
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar
+{
+    width:12px;
+    background: rgb(31, 31, 31);
+}
+::-webkit-scrollbar-thumb
+{
+  background: rgb(65, 65, 65);
+  border-radius:6px;
+
+}
+
+.carrousel .item{
+    height: 200px;
+    min-width: 350px; 
+    background-color:#000;
+    margin: 20px;
+}
+
+.carrousel img{
+    /* width: 100% !important;
+    height: 100% !important; */
+    margin: 20px;
+    transition:.4s;
+}
+
+.carrousel img:hover{
+    opacity: 0.5;
+}

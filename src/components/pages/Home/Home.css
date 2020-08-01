@@ -1,0 +1,47 @@
+.banner{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.7)
+      ),
+    url('../../../assets/images/banner-fundo.bmp');
+    background-size: 103%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    color:#fff;
+    padding: 20px;
+}
+
+@media(max-width:768px){
+    .info{
+        font-size:0.2rem;
+    }
+
+    .info p{
+        display:none;
+    }
+
+    .banner{
+        background-repeat: n-repeat;
+        background-size: cover;
+        background-position: 10%;
+    }
+}
+.info, .video{
+    max-width: 50%;
+}
+
+.video iframe{
+    width:450px;
+}
+
+.info h2{
+    font-size: 2.4rem;
+    margin:8px;
+}
+
+.info h3, .info p{
+    margin: 0 8px;
+}

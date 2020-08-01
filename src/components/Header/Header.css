@@ -1,0 +1,35 @@
+.Logo{
+    max-width: 148px;
+}
+
+.menu{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* padding: 3px 3px; */
+    font-size: 1rem;
+}
+
+.Header{
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 9px 5%;
+    background: var(--black);
+}
+
+.item{
+    color:#fff;
+    font-weight: 900;
+    padding: 9px 5%;
+
+}
+
+@media(max-width:768px){
+    span{
+        display:none;
+    }
+}
