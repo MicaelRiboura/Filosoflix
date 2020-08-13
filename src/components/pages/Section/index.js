@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import './Section.css'
 import axios from 'axios'
-
-const apiKey = 'AIzaSyDNK82U5FJouNwP0IyGTKDafwq5rtMx5pc'
+import apiKey from '../../../credentials/youtubeCredential'
 
 const initialState = {
     list: []
