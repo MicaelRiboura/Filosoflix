@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Filosoflix
+E se existisse uma Netflix de reflexões filosóficas? Essa é a ideia dessa Aplicação Web em ReactJS usando o `Youtube Data API v3`<br/>
+Acesse o preview [aqui!]( https://micaelriboura.github.io/Filosoflix/)<br/><br/>
+
+If exists a philosophical Netflix? This is the idea of this ReactJS Web Application using `Youtube Data API v3`<br/><br/>
+
+> Status do Projeto: Em desenvolvimento :warning:<br/>
+> Project Status: Developing :warning:<br/>
+
 
 ## Available Scripts
 
